@@ -1,0 +1,24 @@
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LENOVO>cd /d "E:\Face Recognition\face_music_web"
+
+first 1.
+D:\MCA sem_1 all\Face Recognition\face_music_web>rmdir /s /q venv
+
+D:\MCA sem_1 all\Face Recognition\face_music_web>python -m venv venv
+
+D:\MCA sem_1 all\Face Recognition\face_music_web>venv\Scripts\activate
+
+(venv) D:\MCA sem_1 all\Face Recognition\face_music_web>pip install -r requirements.txt
+
+
+
+
+E:\Face Recognition\face_music_web>venv\Scripts\activate
+
+(venv) E:\Face Recognition\face_music_web>python app.py
+2025-10-29 09:02:49.617114: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-10-29 09:02:57.088261: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From D:\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+ * Serving Flask app 'app'
